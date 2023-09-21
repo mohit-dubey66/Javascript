@@ -17,7 +17,7 @@
 // object
 // -------------------------------------------------------
 
-// How to check datatype of a variable
+// How to check datatype of a variables
 
 console.log(typeof 23);         // number
 console.log(typeof "Mohit");    // string

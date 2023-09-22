@@ -62,12 +62,12 @@
 
 // -------------------> undefined to conversion <------------------
 
-let name = undefined
-console.log(typeof name)
+// let name = undefined
+// console.log(typeof name)
 
-let convertedName = String(name)
-console.log(typeof convertedName)
-
+// let convertedName = String(name)
+// console.log(typeof convertedName)
+// ----------------------------------------------------------------
 
 // NOTES:
 //     1) "33" => 33
@@ -83,3 +83,44 @@ console.log(typeof convertedName)
 //    11) null to Number => NaN
 //    12) null to String => string
 
+
+// **************************************** OPERATIONS *************************************************
+
+let num1 = 2;
+let num2 = 6;
+
+// console.log(num1+num2)
+// console.log(num1-num2);
+// console.log(num1*num2);
+// console.log(num1/num2);
+// console.log(num1**num2);
+// console.log(num1%num2);
+
+
+// console.log("1" + 2 + 3); // agar string pehle hai to uske baad saara string ki tarah treat kiya jayega aur concatenate hoga
+// console.log(1 + 2 + "3"); // agar string baad me hai to pehle calculation aur fir uske baad string concatenate hoga
+// console.log(1 + +"3" + 4); // plus(+) before a number string converts it into an integer
+
+// console.log("Mohit " + "Dubey")
+
+// let str1 = "Mohit"
+// let str2 = " Dubey"
+// let str3 = str1 + str2
+// console.log(str3);
+
+// console.log(true)
+// console.log(+true) 
+// console.log(+false)
+// console.log(+"");
+
+// --------------------------------------------
+
+let counter = 1;
+console.log(counter);
+counter++;
+console.log(counter++);
+// counter++;
+console.log(++counter);
+++counter
+console.log(++counter);
+console.log(++counter);
